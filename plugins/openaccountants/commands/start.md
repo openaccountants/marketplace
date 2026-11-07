@@ -1,14 +1,8 @@
 ---
 name: start
-description: Front door — scope your tax question and get a ready plan with the right skills loaded.
+description: Start a tax or accounting question and load the skills that answer it.
 ---
 
-The user wants to start a tax/accounting workflow.
+Ask the user what they want to do and in which country or US state, if they have not said.
 
-If the user hasn't said what they want or which jurisdiction, ask them first.
-
-Then call `openaccountants` MCP `start` with:
-- intent: what they said (e.g. "VAT return", "tax filing", "formation", "find deductions")
-- jurisdiction: (ask the user — this plugin is cross-jurisdictional)
-
-Walk through the returned `skills_to_load` and call `get_skill` for each. Apply the rules. Cite the skill slug. Hand off to the verifier when they're ready.
+Then call the `openaccountants` server's `start` tool with their question as `intent` and the jurisdiction. Read each skill it names with `get_skill`, apply it to the user's facts and cite the skill slug.
