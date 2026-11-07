@@ -1,18 +1,13 @@
 {
   "name": "openaccountants",
-  "version": "1.0.0",
-  "description": "The base OpenAccountants plugin — verified tax & accounting skills for 190+ jurisdictions, every answer linked to a named licensed accountant. 11 tools including a real AI-to-verifier handoff.",
+  "version": "1.1.0",
+  "description": "Tax and accounting skills for 190+ jurisdictions. Each skill sets out the method for a tax task, names the official source for its figures, and says whether a licensed accountant has approved it.",
   "author": {
     "name": "OpenAccountants",
-    "url": "https://openaccountants.com"
+    "url": "https://www.openaccountants.com"
   },
-  "homepage": "https://openaccountants.com/connect",
+  "homepage": "https://www.openaccountants.com/connect",
   "repository": "https://github.com/openaccountants/marketplace",
   "license": "MIT",
-  "keywords": [
-    "tax",
-    "accounting",
-    "openaccountants",
-    "mcp"
-  ]
+  "keywords": ["tax", "accounting", "vat", "payroll", "mcp"]
 }
