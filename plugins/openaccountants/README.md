@@ -1,50 +1,28 @@
-# OpenAccountants — Global
+# OpenAccountants for Claude Code
 
-Route tax and accounting questions to OpenAccountants skills via MCP. Check each skill version's published review status before relying on it.
+Tax and accounting skills for 190+ jurisdictions. Each skill sets out the method for a tax task, names the official source for its figures, and says whether a licensed accountant has approved it.
 
-Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
+The plugin connects Claude Code to the OpenAccountants server (`https://www.openaccountants.com/api/mcp`) and adds one skill and three commands.
 
 ## Install
 
 ```bash
-claude plugin install openaccountants/openaccountants
-```
-
-Or browse the full marketplace:
-
-```bash
 claude plugin marketplace add openaccountants/marketplace
+claude plugin install openaccountants@OpenAccountants
 ```
 
-## Slash commands
+## Commands
 
-- `/start` — scope a workflow and load the right skills
-- `/skills` — list every skill in scope
-- `/review` — request a licensed accountant to review your work
+- `/start`: start a tax or accounting question and load the skills that answer it.
+- `/skills`: list the skills for a country, US state or subject.
+- `/review`: ask for a licensed accountant to review your working.
 
-## Skills in this pack
-
-- `amazon-seller-integration`
-- `americas-corridors`
-- `asia-pacific-corridors`
-- `banking-sector`
-- `cbam-carbon-border-adjustment`
-- `charity-nonprofit`
-- `construction-sector`
-- `cross-border-invoicing-compliance`
-- `cross-border-payroll-coordination`
-- `cross-border-vat-gst`
-- `cross-border-workflow-base`
-- `dac6-mdr-reportable-arrangements`
-
-_…and 38 more — run `/skills` after installing._
-
-## Licence
-
-MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
+Other apps (Claude.ai, ChatGPT, Cursor): see [openaccountants.com/connect](https://www.openaccountants.com/connect).
 
 ## Not tax advice
 
-Outputs are working papers, not filed returns. Have a qualified
-professional review before filing. See
-[openaccountants.com/connect](https://openaccountants.com/connect).
+Answers are working papers, not filed returns. Have a qualified professional review them before you file.
+
+## License
+
+MIT for this plugin. Skill content: see [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants).

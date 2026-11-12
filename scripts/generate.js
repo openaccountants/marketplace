@@ -104,7 +104,7 @@ const TOPICAL_PLUGINS = {
         name: "openaccountants",
         source: "./plugins/openaccountants",
         description:
-          "Base plugin for OpenAccountants tax and accounting skills via MCP. Check each skill version's published review status.",
+          "Tax and accounting skills for 190+ jurisdictions, each with its official source and its approval status.",
         category: "tax-accounting",
       },
       ...generated.map((g) => ({

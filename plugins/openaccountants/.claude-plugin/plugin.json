@@ -1,18 +1,13 @@
 {
   "name": "openaccountants",
-  "version": "1.0.0",
-  "description": "Route tax and accounting questions to OpenAccountants skills via MCP. Check each skill version's published review status before relying on it.",
+  "version": "1.1.0",
+  "description": "Tax and accounting skills for 190+ jurisdictions. Each skill sets out the method for a tax task, names the official source for its figures, and says whether a licensed accountant has approved it.",
   "author": {
     "name": "OpenAccountants",
-    "url": "https://openaccountants.com"
+    "url": "https://www.openaccountants.com"
   },
-  "homepage": "https://openaccountants.com/connect",
+  "homepage": "https://www.openaccountants.com/connect",
   "repository": "https://github.com/openaccountants/marketplace",
   "license": "MIT",
-  "keywords": [
-    "tax",
-    "accounting",
-    "openaccountants",
-    "mcp"
-  ]
+  "keywords": ["tax", "accounting", "vat", "payroll", "mcp"]
 }
