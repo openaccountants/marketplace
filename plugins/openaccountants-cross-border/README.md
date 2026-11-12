@@ -2,7 +2,7 @@
 
 Treaty positions, permanent establishment, GILTI, FDII, BEAT, Pillar Two, DAC6, FATCA/CRS, CBAM — for any business operating across borders.
 
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 27 verified skill(s) for this scope.
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -39,9 +39,9 @@ claude plugin marketplace add openaccountants/marketplace
 
 _…and 15 more — run `/skills` after installing._
 
-## License
+## Licence
 
-MIT for code; skill content is dual-licensed (see [LICENSE-ADDITIONAL.md](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md)).
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

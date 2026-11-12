@@ -22,8 +22,6 @@ SOFTWARE.
 
 ---
 
-Note: The skill content distributed via the OpenAccountants MCP server is
-dual-licensed (MIT for non-commercial use; commercial license required for
-incorporation into paid products). See the OpenAccountants source repository
-at https://github.com/openaccountants/openaccountants for the full
-LICENSE-ADDITIONAL.md.
+Note: this MIT licence covers the plugin wrapper only. For fetched skill
+content, consult the terms for that version in the source repository:
+https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md

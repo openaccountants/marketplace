@@ -104,13 +104,13 @@ const TOPICAL_PLUGINS = {
         name: "openaccountants",
         source: "./plugins/openaccountants",
         description:
-          "Base plugin — verified tax & accounting skills for 190+ jurisdictions, with a named-verifier handoff.",
+          "Tax and accounting skills for 190+ jurisdictions, each with its official source and its approval status.",
         category: "tax-accounting",
       },
       ...generated.map((g) => ({
         name: g.slug,
         source: `./plugins/${g.slug}`,
-        description: `OpenAccountants ${g.label}${g.verifier ? ` — verified by ${g.verifier}` : ""}. ${g.skillCount} skill(s).`,
+        description: `OpenAccountants ${g.label}. ${g.skillCount} skill(s); professional review varies by skill version.`,
         category: "tax-accounting",
       })),
     ],

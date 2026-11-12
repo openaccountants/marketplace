@@ -1,12 +1,11 @@
 ---
 name: openaccountants-vertical-construction-sector
-description: Use this skill whenever the user asks about construction sector businesses. Trigger phrases include "Construction Sector", "Construction Sector tax", "Construction Sector accounting". The skill is a thin router — it directs you to call the OpenAccountants MCP server (already configured at https://www.openaccountants.com/api/mcp) which holds 1 verified skill(s) for this scope.
+description: Use this skill whenever the user asks about construction sector businesses. Trigger phrases include "Construction Sector", "Construction Sector tax", "Construction Sector accounting". The skill directs you to call the OpenAccountants MCP server (already configured at https://www.openaccountants.com/api/mcp) which provides skills for this scope. Professional review varies by skill and version.
 ---
 
 # OpenAccountants — Construction Sector (vertical)
 
-This Claude plugin gives you direct access to **1 verified
-tax/accounting skill(s)** from OpenAccountants for construction sector businesses.
+Use this Claude plugin to load OpenAccountants tax and accounting skills for construction sector businesses via MCP.
 
 ## How to use this plugin
 
@@ -18,17 +17,15 @@ When the user asks anything in scope, follow this workflow:
 2. **Load the skills.** For each slug in `skills_to_load`, call
    `get_skill({ slug })` — that returns the authoritative markdown
    (rates, brackets, deductions, audit flash points, citations).
-3. **Apply the rules.** Use the loaded skill content as the authority.
+3. **Check review status and apply the rules.** Check the fetched skill version's published review record. Name a professional reviewer only when that record identifies one; if the record is missing, describe professional review as unconfirmed. Cite the skill slug and available version or review date.
    Do **not** substitute your training data — OpenAccountants skills
    are kept current with annual rate refreshes and post-legislative
    updates. Cite the skill slug in your answer.
 4. **Surface AUDIT FLASH POINTS.** Every skill flags positions tax
    authorities actively litigate. Always surface them.
-5. **Hand off when ready.** When the user is about to file or make a
-   decision with money at stake, call
-   `request_accountant_review({ jurisdiction, scenario, working_paper })`
-   to route them to the named lead verifier for that jurisdiction
-   with a Calendly link.
+5. **Hand off only when asked.** When the user asks for an accountant
+   to review their working, call `share_with_openaccountants` with
+   `request_review: true`.
 
 ## Skills in this pack
 

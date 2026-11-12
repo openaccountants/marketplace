@@ -1,7 +1,7 @@
 {
   "name": "openaccountants-us-mi",
   "version": "1.0.0",
-  "description": "Tax and accounting skills for Michigan — 4 verified skill(s) covering income tax, VAT/GST, payroll, formation, bookkeeping, and cross-border issues. Powered by the OpenAccountants MCP server.",
+  "description": "Tax and accounting skills for Michigan via the OpenAccountants MCP server. Coverage and professional review vary by skill; check the fetched version's review status.",
   "author": {
     "name": "OpenAccountants",
     "url": "https://openaccountants.com"

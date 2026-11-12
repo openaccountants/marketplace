@@ -2,7 +2,7 @@
 
 Use this skill whenever a shipping company, vessel operator, ship owner, ship manager, or aviation lessor / airline asks about sector-specific tax regimes. Trigger on phrases like "tonnage tax", "Greek tonnage tax", "Cyprus tonnage tax", "Malta tonnage tax", "UK tonnage tax", "Norwegian shipping regime", "Dutch tonnage tax", "Singapore MSI", "Hong Kong tonnage tax", "qualifying shipping income", "
 
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 1 verified skill(s) for this scope.
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -26,9 +26,9 @@ claude plugin marketplace add openaccountants/marketplace
 
 - `shipping-aviation-tonnage-tax`
 
-## License
+## Licence
 
-MIT for code; skill content is dual-licensed (see [LICENSE-ADDITIONAL.md](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md)).
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

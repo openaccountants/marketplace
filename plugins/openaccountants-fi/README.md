@@ -1,8 +1,8 @@
 # OpenAccountants — Finland
 
-Tax and accounting skills for Finland — 3 verified skill(s) covering income tax, VAT/GST, payroll, formation, bookkeeping, and cross-border issues. Powered by the OpenAccountants MCP server.
+Tax and accounting skills for Finland via the OpenAccountants MCP server. Coverage and professional review vary by skill; check the fetched version's review status.
 
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 3 verified skill(s) for this scope.
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -28,9 +28,9 @@ claude plugin marketplace add openaccountants/marketplace
 - `fi-prepayments`
 - `fi-yel-social`
 
-## License
+## Licence
 
-MIT for code; skill content is dual-licensed (see [LICENSE-ADDITIONAL.md](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md)).
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

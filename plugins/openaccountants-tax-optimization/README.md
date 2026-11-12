@@ -2,7 +2,7 @@
 
 Planning strategies — residency choice, IP holdings, R&D credits, patent boxes, restructuring, year-end positioning. Covers the legitimate end of optimisation; flags the audit-flash-point edge cases.
 
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 13 verified skill(s) for this scope.
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -39,9 +39,9 @@ claude plugin marketplace add openaccountants/marketplace
 
 _…and 1 more — run `/skills` after installing._
 
-## License
+## Licence
 
-MIT for code; skill content is dual-licensed (see [LICENSE-ADDITIONAL.md](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md)).
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 
