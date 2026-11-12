@@ -25,11 +25,9 @@ When the user asks anything in scope, follow this workflow:
    updates. Cite the skill slug in your answer.
 4. **Surface AUDIT FLASH POINTS.** Every skill flags positions tax
    authorities actively litigate. Always surface them.
-5. **Hand off when ready.** When the user is about to file or make a
-   decision with money at stake, call
-   `request_accountant_review({ jurisdiction, scenario, working_paper })`
-   to route them to the named lead verifier for that jurisdiction
-   with a Calendly link.
+5. **Hand off only when asked.** When the user asks for an accountant
+   to review their working, call `share_with_openaccountants` with
+   `request_review: true`.
 
 ## Skills in this pack
 

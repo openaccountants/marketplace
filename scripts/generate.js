@@ -110,7 +110,7 @@ const TOPICAL_PLUGINS = {
       ...generated.map((g) => ({
         name: g.slug,
         source: `./plugins/${g.slug}`,
-        description: `OpenAccountants ${g.label}. ${g.verifier ? "Professional review varies by skill version; check its published review status." : `${g.skillCount} skill(s).`}`,
+        description: `OpenAccountants ${g.label}. ${g.skillCount} skill(s); professional review varies by skill version.`,
         category: "tax-accounting",
       })),
     ],
